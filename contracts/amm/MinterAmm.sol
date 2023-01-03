@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
-pragma solidity 0.8.0;
+pragma solidity >=0.8.0;
 
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/token/ERC1155/utils/ERC1155HolderUpgradeable.sol";
@@ -222,6 +222,7 @@ contract MinterAmm is
         // Save off state variables
         seriesController = _seriesController;
         addressesProvider = _addressesProvider;
+
         erc1155Controller = IERC1155(_seriesController.erc1155Controller());
 
         // Approve seriesController to move tokens

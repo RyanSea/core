@@ -1,4 +1,4 @@
-pragma solidity 0.8.0;
+pragma solidity >=0.8.0;
 
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts/token/ERC1155/IERC1155.sol";

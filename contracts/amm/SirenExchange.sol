@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-pragma solidity >=0.5.0 <=0.8.0;
+pragma solidity >=0.8.0;
 import "../amm/IMinterAmm.sol";
 import "../amm/IAmmDataProvider.sol";
 import "../series/SeriesLibrary.sol";
